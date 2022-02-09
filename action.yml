@@ -17,7 +17,7 @@ inputs:
   redis-container-name:
     description: "Name of the created container. Useful if you run multiple Redis containers"
     required: false
-    default: 'redis'
+    default: 'redis-cluster'
 
 runs:
   using: 'docker'
