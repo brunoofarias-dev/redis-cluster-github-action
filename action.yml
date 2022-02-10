@@ -10,10 +10,10 @@ inputs:
     description: 'Redis version to use'
     required: false
     default: 'latest'
-  redis-port:
+  redis-port-range:
     description: 'Redis port to use and expose'
     required: false
-    default: 6379
+    default: '6379-6399'
   redis-container-name:
     description: "Name of the created container. Useful if you run multiple Redis containers"
     required: false
